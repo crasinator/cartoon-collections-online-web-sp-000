@@ -12,14 +12,14 @@ def summon_captain_planet(argument)
     ween = yoo.capitalize
     newarr.push("#{ween}!")
   end
-return newarr
+newarr
 end 
 
 def long_planeteer_calls(array) 
   if  array.any? {|i| i.length > 4}
-    return true
+   true
   else 
-    return false
+   false
   end 
 end
 
