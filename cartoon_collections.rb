@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
     count = 1 
   dwarves.each do |each|
     puts "/#{count}.*#{each}/"
-    count = count + 1 
+    count += 1 
 end 
 end 
 
